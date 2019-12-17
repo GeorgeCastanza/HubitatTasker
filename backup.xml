@@ -1,0 +1,1074 @@
+<TaskerData sr="" dvi="1" tv="5.9">
+	<dmetric>1080.0,2094.0</dmetric>
+	<Profile sr="prof18" ve="2">
+		<cdate>1322219949525</cdate>
+		<edate>1569749896364</edate>
+		<flags>18</flags>
+		<id>18</id>
+		<mid0>14</mid0>
+		<nme>Profile Click</nme>
+		<pri>10</pri>
+		<Event sr="con0" ve="2">
+			<code>2000</code>
+			<pri>0</pri>
+			<App sr="arg0">
+				<appClass>net.dinglisch.android.taskerm.Tasker</appClass>
+				<appPkg>net.dinglisch.android.taskerm</appPkg>
+				<label>Tasker</label>
+			</App>
+			<Str sr="arg1" ve="3">Profile</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof20" ve="2">
+		<cdate>1322219965058</cdate>
+		<edate>1528887793730</edate>
+		<flags>18</flags>
+		<id>20</id>
+		<mid0>19</mid0>
+		<nme>Profile Boot</nme>
+		<pri>9</pri>
+		<Event sr="con0" ve="2">
+			<code>411</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Profile sr="prof4" ve="2">
+		<cdate>1441699789426</cdate>
+		<edate>1501589087831</edate>
+		<flags>2</flags>
+		<id>4</id>
+		<mid0>11</mid0>
+		<Time sr="con0">
+			<fh>6</fh>
+			<fm>30</fm>
+			<th>6</th>
+			<tm>30</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof5" ve="2">
+		<cdate>1371332838601</cdate>
+		<edate>1551223712297</edate>
+		<flags>2</flags>
+		<id>5</id>
+		<mid0>13</mid0>
+		<Time sr="con0">
+			<fh>22</fh>
+			<fm>0</fm>
+			<th>22</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1330839405247</cdate>
+		<mdate>1576550652261</mdate>
+		<name>Base</name>
+		<pids>18,20,5,4</pids>
+		<scenes>Icon And Text,IconAndTextMenu,Control</scenes>
+		<tids>13,12,11,10,14,15,3,2</tids>
+		<tsort>Alpha</tsort>
+		<Img sr="icon" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneControl">
+		<cdate>1522218705431</cdate>
+		<edate>1569938424601</edate>
+		<gridSize>37</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>421</heightPort>
+		<nme>Control</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>580</widthPort>
+		<ListElement sr="elements0">
+			<flags>5</flags>
+			<geom>11,132,556,246,15,177,742,328</geom>
+			<Str sr="arg0" ve="3">Menu</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="1"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1522218705431</cdate>
+					<edate>1522218705431</edate>
+					<heightLand>168</heightLand>
+					<heightPort>126</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>742</widthLand>
+					<widthPort>556</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>429,11,114,102,573,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>84,11,333,102,112,15,445,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="15"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>11,11,60,102,15,15,81,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ListElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>9,0,570,121,6,0,338,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="26"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF80CBC4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,121,580,4,0,162,774,6</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">IconAndTextMenu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneIcon And Text">
+		<cdate>1500427797665</cdate>
+		<edate>1569754372542</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1320</heightPort>
+		<nme>Icon And Text</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>701</widthPort>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Icon And Text</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneIconAndTextMenu">
+		<cdate>1522218705431</cdate>
+		<edate>1569756744429</edate>
+		<gridSize>37</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>421</heightPort>
+		<nme>IconAndTextMenu</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>580</widthPort>
+		<ListElement sr="elements0">
+			<flags>5</flags>
+			<geom>11,132,556,246,15,177,742,328</geom>
+			<Str sr="arg0" ve="3">Menu</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="1"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1522218705431</cdate>
+					<edate>1522218705431</edate>
+					<heightLand>-1</heightLand>
+					<heightPort>126</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>-1</widthLand>
+					<widthPort>556</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>429,11,114,102,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>84,11,333,102,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>11,11,60,102,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ListElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>9,0,570,121,6,0,338,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="26"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF80CBC4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,121,580,4,0,162,774,6</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">IconAndTextMenu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1330839405248</cdate>
+		<edate>1522218873774</edate>
+		<id>10</id>
+		<nme>Profile Work</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Work</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3"/>
+			<Int sr="arg4"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Work</Str>
+			<Int sr="arg1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>310</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="3"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="3"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_device_access_end_call</nme>
+			</Img>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Work</Str>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_end_call</nme>
+		</Img>
+	</Task>
+	<Task sr="task11">
+		<cdate>1330839405269</cdate>
+		<edate>1570334302394</edate>
+		<id>11</id>
+		<nme>Profile Home</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Home</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3"/>
+			<Int sr="arg4"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Home</Str>
+			<Int sr="arg1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Home</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>810</code>
+			<Int sr="arg0" val="128"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="8"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="12"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="8"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="6"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_aaa_ext_home</nme>
+			</Img>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_ext_home</nme>
+		</Img>
+	</Task>
+	<Task sr="task12">
+		<cdate>1330839405272</cdate>
+		<edate>1570707876643</edate>
+		<id>12</id>
+		<nme>Profile Loud</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Loud</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3"/>
+			<Int sr="arg4"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Loud</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="6"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="12"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="12"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="11"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_device_access_volume_on</nme>
+			</Img>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Loud</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="12"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_volume_on</nme>
+		</Img>
+	</Task>
+	<Task sr="task13">
+		<cdate>1330839405275</cdate>
+		<edate>1495541146927</edate>
+		<id>13</id>
+		<nme>Profile Silence</nme>
+		<pri>6</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Silence</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Silence</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>305</code>
+			<Int sr="arg0"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Silence</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_aaa_ext_halt</nme>
+			</Img>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_ext_halt</nme>
+		</Img>
+	</Task>
+	<Task sr="task14">
+		<cdate>1330839405279</cdate>
+		<edate>1570334284041</edate>
+		<id>14</id>
+		<nme>Profile Select</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>551</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">IconAndTextMenu</Str>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="1"/>
+			<ListElementItem sr="item0">
+				<label>Home</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Home</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_home</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Work</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Work</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_editor_show_chart</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Vibration</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Vibration</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_notification_phone_in_talk</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Silence</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Silence</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_notification_do_not_disturb</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item4">
+				<label>Nothing</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Nothing</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_report_problem</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item5">
+				<label>Loud</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Loud</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_av_volume_up</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item6">
+				<label>Media</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Profile Media</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_notification_airline_seat_recline_extra</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item7">
+				<label>Cancel</label>
+				<Action sr="action" ve="7">
+					<code>548</code>
+					<Str sr="arg0" ve="3">Cancel</Str>
+					<Int sr="arg1" val="0"/>
+				</Action>
+			</ListElementItem>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_ext_home</nme>
+		</Img>
+	</Task>
+	<Task sr="task15">
+		<cdate>1330839405282</cdate>
+		<edate>1495354114729</edate>
+		<id>15</id>
+		<nme>Profile Vibration</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Vibration</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3"/>
+			<Int sr="arg4"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Vibration</Str>
+			<Int sr="arg1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Vibration</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>307</code>
+			<Int sr="arg0"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>305</code>
+			<Int sr="arg0"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>304</code>
+			<Int sr="arg0"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>310</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_device_access_ring_volume</nme>
+			</Img>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_ring_volume</nme>
+		</Img>
+	</Task>
+	<Task sr="task19">
+		<cdate>1330839405284</cdate>
+		<edate>1528887793730</edate>
+		<id>19</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Profile Home</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">%PROFILE</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>136</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1330839405275</cdate>
+		<edate>1495354123489</edate>
+		<id>2</id>
+		<nme>Profile Nothing</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Silence</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Silence</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Nothing</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_alerts_and_states_warning</nme>
+			</Img>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_ext_halt</nme>
+		</Img>
+	</Task>
+	<Task sr="task3">
+		<cdate>1330839405269</cdate>
+		<edate>1535321678567</edate>
+		<id>3</id>
+		<nme>Profile Media</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PROFILE</Str>
+			<Str sr="arg1" ve="3">Media</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Media</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="15"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="15"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>256</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>152</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Img sr="arg1" ve="2">
+				<nme>mw_av_play_arrow</nme>
+			</Img>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>155</code>
+			<Str sr="arg0" ve="3">Profile Select</Str>
+			<Str sr="arg1" ve="3">Media</Str>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_av_play</nme>
+		</Img>
+	</Task>
+</TaskerData>
